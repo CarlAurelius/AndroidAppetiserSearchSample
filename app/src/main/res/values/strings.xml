@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">iTunesSearch</string>
+
+    // Currency
+    <string name="currency_sign">USD</string>
+</resources>

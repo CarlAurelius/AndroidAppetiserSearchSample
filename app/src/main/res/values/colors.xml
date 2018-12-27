@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800080</color>
+    <color name="colorPrimaryDark">#4c004c</color>
+    <color name="colorAccent">#D81B60</color>
+
+    // General
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    // Common
+    <color name="app_bg">#FFFFFF</color>
+    <color name="app_text1">@color/black</color>
+    <color name="app_text2">#656565</color>
+    <color name="app_text_primary">@color/colorPrimary</color>
+    <color name="app_text_hint">#989898</color>
+</resources>
