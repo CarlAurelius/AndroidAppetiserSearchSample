@@ -1,4 +1,7 @@
-# AndroidAppetiserSearchSample
+### Developers note: this is the code base from the requirement give from dropbox
+to download the apk please visit the release page or click here
+[APK File](https://github.com/CarlAurelius/AndroidAppetiserSearchSample/releases)
+
 
 #### Persitence:
 Library used to save data https://github.com/orhanobut/hawk
