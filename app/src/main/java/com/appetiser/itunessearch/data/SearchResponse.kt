@@ -1,9 +1,13 @@
 package com.appetiser.itunessearch.data
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
+import org.parceler.Parcel
 
 /**
  * The full response object for the url https://itunes.apple.com/search?term=star&amp;country=au&amp;media=movie
  */
+
 data class SearchResponse(
     @SerializedName("resultCount")
     var resultCount: Int,
@@ -11,6 +15,7 @@ data class SearchResponse(
     var results: List<ResultObject>
 )
 
+@Parcelize
 data class ResultObject(
     @SerializedName("artistId")
     var artistId: Int,
@@ -108,4 +113,4 @@ data class ResultObject(
     var trackViewUrl: String,
     @SerializedName("wrapperType")
     var wrapperType: String
-)
+) : Parcelable

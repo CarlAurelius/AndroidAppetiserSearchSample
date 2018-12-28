@@ -5,14 +5,14 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import org.jetbrains.anko.AnkoLogger
 
 
 /**
  * The super class for each fragment in the app
  */
 
-abstract class BaseFragment: Fragment()
+abstract class BaseFragment: Fragment(), AnkoLogger
 {
     lateinit var act: BaseActivity
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
